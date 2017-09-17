@@ -1,0 +1,49 @@
+{
+    "name": "is-positive-int",
+    "version": "0.0.0",
+    "description":
+        "Validate if a value is a positive integer between 0 & maximum safe integer in JavaScript",
+    "license": "MIT",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/palashmon/is-positive-int.git"
+    },
+    "author": {
+        "name": "Palash Mondal",
+        "email": "palashm@live.in",
+        "url": "https://github.com/palashmon"
+    },
+    "scripts": {
+        "test": "ava",
+        "test:watch": "ava -v -w"
+    },
+    "files": ["index.js"],
+    "keywords": [
+        "es2015",
+        "ecmascript",
+        "ponyfill",
+        "polyfill",
+        "shim",
+        "number",
+        "is-positive-int",
+        "positive",
+        "integer",
+        "int",
+        "num"
+    ],
+    "dependencies": {
+        "is-safe-integer": "1.0.2",
+        "number-is-integer": "1.0.1"
+    },
+    "devDependencies": {
+        "ava": "^0.22.0"
+    },
+    "engines": {
+        "node": ">= 4.x"
+    },
+    "bugs": {
+        "url": "https://github.com/palashmon/is-positive-int/issues"
+    },
+    "homepage": "https://github.com/palashmon/is-positive-int#readme"
+}

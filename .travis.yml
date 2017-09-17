@@ -1,0 +1,22 @@
+sudo: false
+language: node_js
+node_js:
+  - '8'
+  - '6'
+  - '4'
+cache:
+  directories:
+    - node_modules
+branches:
+  only:
+    - master
+notifications:
+  email: false
+before_install:
+  - "npm i -g npm@latest"
+install:
+  - npm install
+before_script:
+  - npm prune
+script:
+  - npm run test
