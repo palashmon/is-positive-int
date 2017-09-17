@@ -1,8 +1,7 @@
 {
     "name": "is-positive-int",
-    "version": "0.0.0",
-    "description":
-        "Validate if a value is a positive integer between 0 & maximum safe integer in JavaScript",
+    "version": "1.0.0",
+    "description": "Validate if a value is a positive integer between 0 & maximum safe integer in JavaScript",
     "license": "MIT",
     "main": "index.js",
     "repository": {
@@ -18,7 +17,9 @@
         "test": "ava",
         "test:watch": "ava -v -w"
     },
-    "files": ["index.js"],
+    "files": [
+        "index.js"
+    ],
     "keywords": [
         "es2015",
         "ecmascript",
