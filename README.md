@@ -1,5 +1,7 @@
 # is-positive-int
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/palashmon/is-positive-int.svg)](https://greenkeeper.io/)
+
 > Validate if a value is a positive integer between 0 & [maximum safe integer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER) in JavaScript
 
 [![Build Status](https://travis-ci.org/palashmon/is-positive-int.svg?branch=master)](https://travis-ci.org/palashmon/is-positive-int)
