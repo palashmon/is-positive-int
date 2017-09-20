@@ -4,6 +4,7 @@
 
 [![Build Status](https://travis-ci.org/palashmon/is-positive-int.svg?branch=master)](https://travis-ci.org/palashmon/is-positive-int)
 [![npm version](https://img.shields.io/npm/v/is-positive-int.svg)](http://npm.im/is-positive-int)
+[![Greenkeeper badge](https://badges.greenkeeper.io/palashmon/is-positive-int.svg)](https://greenkeeper.io/)
 [![npm downloads](https://img.shields.io/npm/dm/is-positive-int.svg)](http://npm.im/is-positive-int)
 [![Dependency Status](https://david-dm.org/palashmon/is-positive-int.svg)](https://david-dm.org/palashmon/is-positive-int)
 
