@@ -1,4 +1,5 @@
 import test from 'ava';
+
 import m from './';
 
 test('Default test cases', t => {
@@ -31,6 +32,7 @@ test('Default test cases', t => {
     t.false(m(false));
     t.false(m([1]));
     t.false(m({}));
+    t.false(m());
 });
 
 test.todo('Add more test cases later');
