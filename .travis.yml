@@ -1,9 +1,7 @@
-sudo: false
 language: node_js
 node_js:
+  - '10'
   - '8'
-  - '6'
-  - '4'
 cache:
   directories:
     - node_modules
@@ -11,8 +9,6 @@ branches:
   only:
     - master
     - /^greenkeeper/.*$/
-notifications:
-  email: false
 before_install:
   - "npm i -g npm@latest"
 install:
@@ -21,3 +17,8 @@ before_script:
   - npm prune
 script:
   - npm run test
+deploy:
+  provider: script
+  skip_cleanup: true
+  script:
+    - npx semantic-release
