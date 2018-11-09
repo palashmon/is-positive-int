@@ -34,7 +34,7 @@
         "num"
     ],
     "dependencies": {
-        "is-safe-integer": "1.0.2",
+        "is-safe-integer": "2.0.0",
         "number-is-integer": "1.0.1"
     },
     "devDependencies": {
