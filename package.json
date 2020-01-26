@@ -38,7 +38,7 @@
         "number-is-integer": "1.0.1"
     },
     "devDependencies": {
-        "ava": "~3.0.0"
+        "ava": "~3.1.0"
     },
     "engines": {
         "node": ">= 4.x"
