@@ -1,14 +1,15 @@
 language: node_js
 node_js:
-  - '10'
-  - '8'
+  - node
 cache:
   directories:
     - node_modules
 branches:
   only:
     - master
-    - /^greenkeeper/.*$/
+    - /^snyk/.*$/
+notifications:
+  email: false
 before_install:
   - "npm i -g npm@latest"
 install:
