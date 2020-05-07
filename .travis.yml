@@ -1,20 +1,7 @@
 language: node_js
 node_js:
-  - node
-cache:
-  directories:
-    - node_modules
-branches:
-  only:
-    - master
-    - /^snyk/.*$/
+  - '12'
+  - '10'
+  - '8'
 notifications:
   email: false
-before_install:
-  - "npm i -g npm@latest"
-install:
-  - npm install
-before_script:
-  - npm prune
-script:
-  - npm run test
