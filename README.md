@@ -1,12 +1,6 @@
-# is-positive-int
+# is-positive-int ![CI](https://github.com/palashmon/is-positive-int/actions/workflows/main.yaml/badge.svg)
 
 > Validate if a value is a positive integer between 0 & [maximum safe integer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER) in JavaScript
-
-[![Build Status](https://travis-ci.org/palashmon/is-positive-int.svg?branch=master)](https://travis-ci.org/palashmon/is-positive-int)
-[![npm version](https://img.shields.io/npm/v/is-positive-int.svg)](http://npm.im/is-positive-int)
-
-[![npm downloads](https://img.shields.io/npm/dm/is-positive-int.svg)](http://npm.im/is-positive-int)
-[![Dependency Status](https://david-dm.org/palashmon/is-positive-int.svg)](https://david-dm.org/palashmon/is-positive-int)
 
 &nbsp;
 

@@ -1,9 +1,8 @@
 'use strict';
 
-// Load the required ponyfills
-var isInteger = require('number-is-integer');
-var isSafeInteger = require('is-safe-integer');
+function isPositiveSafeInteger(n) {
+  const MAX_SAFE_INTEGER = Number.MAX_SAFE_INTEGER || 9007199254740991;
+  return Number.isInteger(n) && n >= 0 && n <= MAX_SAFE_INTEGER;
+}
 
-module.exports = function(n) {
-    return isInteger(n) && isSafeInteger(n) && parseFloat(n) > -1; // ignore -ve integers
-};
+export default isPositiveSafeInteger;
