@@ -1,6 +1,5 @@
 import test from 'ava';
-
-import m from './';
+import m from './index.js';
 
 test('Default test cases', t => {
     // Valid positive values

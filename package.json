@@ -1,6 +1,6 @@
 {
     "name": "is-positive-int",
-    "version": "1.0.2",	
+    "version": "1.0.4",
     "description": "Validate if a value is a positive integer between 0 & maximum safe integer in JavaScript",
     "license": "MIT",
     "main": "index.js",
@@ -33,10 +33,6 @@
         "int",
         "num"
     ],
-    "dependencies": {
-        "is-safe-integer": "~2.0.0",
-        "number-is-integer": "~2.0.0"
-    },
     "devDependencies": {
         "ava": "^5.1.0"
     },
@@ -46,5 +42,6 @@
     "bugs": {
         "url": "https://github.com/palashmon/is-positive-int/issues"
     },
-    "homepage": "https://github.com/palashmon/is-positive-int#readme"
+    "homepage": "https://github.com/palashmon/is-positive-int#readme",
+    "type": "module"
 }
