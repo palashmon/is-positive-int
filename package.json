@@ -34,7 +34,7 @@
         "num"
     ],
     "devDependencies": {
-        "ava": "^5.1.0"
+        "ava": "^6.0.1"
     },
     "engines": {
         "node": ">=8"
