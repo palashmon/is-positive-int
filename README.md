@@ -1,4 +1,4 @@
-# is-positive-int ![CI](https://github.com/palashmon/is-positive-int/actions/workflows/main.yaml/badge.svg)
+# is-positive-int ![CI](https://github.com/palashmon/is-positive-int/actions/workflows/main.yaml/badge.svg) [![npm version](https://img.shields.io/npm/v/is-positive-int.svg)](http://npm.im/is-positive-int)
 
 > Validate if a value is a positive integer between 0 & [maximum safe integer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER) in JavaScript
 
