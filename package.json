@@ -1,6 +1,6 @@
 {
     "name": "is-positive-int",
-    "version": "1.0.4",
+    "version": "1.0.3",
     "description": "Validate if a value is a positive integer between 0 & maximum safe integer in JavaScript",
     "license": "MIT",
     "main": "index.js",
