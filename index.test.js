@@ -33,5 +33,3 @@ test('Default test cases', t => {
     t.false(m({}));
     t.false(m());
 });
-
-test.todo('Add more test cases later');
