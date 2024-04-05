@@ -1,47 +1,55 @@
 {
-    "name": "is-positive-int",
-    "version": "1.0.3",
-    "description": "Validate if a value is a positive integer between 0 & maximum safe integer in JavaScript",
-    "license": "MIT",
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/palashmon/is-positive-int.git"
-    },
-    "author": {
-        "name": "Palash Mondal",
-        "email": "palashm@live.in",
-        "url": "https://github.com/palashmon"
-    },
-    "scripts": {
-        "test": "ava",
-        "test:watch": "ava -v -w"
-    },
-    "files": [
-        "index.js"
-    ],
-    "keywords": [
-        "es2015",
-        "ecmascript",
-        "ponyfill",
-        "polyfill",
-        "shim",
-        "number",
-        "is-positive-int",
-        "positive",
-        "integer",
-        "int",
-        "num"
-    ],
-    "devDependencies": {
-        "ava": "^6.0.1"
-    },
-    "engines": {
-        "node": ">=8"
-    },
-    "bugs": {
-        "url": "https://github.com/palashmon/is-positive-int/issues"
-    },
-    "homepage": "https://github.com/palashmon/is-positive-int#readme",
-    "type": "module"
+	"name": "is-positive-int",
+	"version": "1.0.4",
+	"description": "Validate if a value is a positive integer between 0 & Number.MAX_SAFE_INTEGER",
+	"author": "Palash Mondal",
+	"license": "MIT",
+	"repository": "palashmon/is-positive-int",
+	"sideEffects": false,
+	"engines": {
+		"node": ">=18"
+	},
+	"type": "module",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	},
+	"scripts": {
+		"test": "ava && tsc index.d.ts",
+		"test:watch": "ava -v -w"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"assert",
+		"assertion",
+		"bound",
+		"check",
+		"ecmascript",
+		"es2015",
+		"guard",
+		"int",
+		"integer",
+		"is-positive-int",
+		"javascript",
+		"maximum",
+		"num",
+		"number",
+		"polyfill",
+		"ponyfill",
+		"positive",
+		"range",
+		"safe",
+		"shim",
+		"type",
+		"typescript",
+		"validate",
+		"validation"
+	],
+	"devDependencies": {
+		"ava": "^6.0.1",
+		"typescript": "^5.4.4"
+	}
 }
