@@ -1,6 +1,6 @@
 {
   "name": "is-positive-int",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Validate if a value is a positive integer between 0 & Number.MAX_SAFE_INTEGER",
   "author": "Palash Mondal",
   "license": "MIT",
