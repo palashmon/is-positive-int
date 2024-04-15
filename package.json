@@ -1,59 +1,59 @@
 {
-	"name": "is-positive-int",
-	"version": "1.1.0",
-	"description": "Validate if a value is a positive integer between 0 & Number.MAX_SAFE_INTEGER",
-	"author": "Palash Mondal",
-	"license": "MIT",
-	"repository": "palashmon/is-positive-int",
-	"sideEffects": false,
-	"engines": {
-		"node": ">=18"
-	},
-	"type": "module",
-	"exports": {
-		"types": "./dist/index.d.ts",
-		"default": "./dist/index.js"
-	},
-	"files": [
-		"dist"
-	],
-	"scripts": {
-		"build": "tsup",
-		"dev": "tsup --watch",
-		"test": "jest"
-	},
-	"keywords": [
-		"assert",
-		"assertion",
-		"bound",
-		"check",
-		"ecmascript",
-		"es2015",
-		"guard",
-		"int",
-		"integer",
-		"is-positive-int",
-		"javascript",
-		"maximum",
-		"num",
-		"number",
-		"polyfill",
-		"ponyfill",
-		"positive",
-		"range",
-		"safe",
-		"shim",
-		"type",
-		"typescript",
-		"validate",
-		"validation"
-	],
-	"devDependencies": {
-		"@types/jest": "^29.5.12",
-		"jest": "^29.7.0",
-		"ts-jest": "^29.1.2",
-		"ts-node": "^10.9.2",
-		"tsup": "^8.0.2",
-		"typescript": "^5.4.3"
-	}
+  "name": "is-positive-int",
+  "version": "1.2.0",
+  "description": "Validate if a value is a positive integer between 0 & Number.MAX_SAFE_INTEGER",
+  "author": "Palash Mondal",
+  "license": "MIT",
+  "repository": "palashmon/is-positive-int",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "default": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "jest"
+  },
+  "keywords": [
+    "assert",
+    "assertion",
+    "bound",
+    "check",
+    "ecmascript",
+    "es2015",
+    "guard",
+    "int",
+    "integer",
+    "is-positive-int",
+    "javascript",
+    "maximum",
+    "num",
+    "number",
+    "polyfill",
+    "ponyfill",
+    "positive",
+    "range",
+    "safe",
+    "shim",
+    "type",
+    "typescript",
+    "validate",
+    "validation"
+  ],
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3"
+  }
 }
