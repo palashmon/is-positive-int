@@ -1,0 +1,12 @@
+name: Publish NPM Release
+on:
+  workflow_run:
+    workflows: ["GitHub Release"]
+    types: [completed]
+jobs:
+  build:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    uses: palashmon/reusable-workflows/.github/workflows/npm-publish.yml@main
+    secrets: inherit
+    with:
+      build-needed: true
