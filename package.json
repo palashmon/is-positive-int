@@ -7,7 +7,7 @@
   "repository": "palashmon/is-positive-int",
   "sideEffects": false,
   "engines": {
-    "node": ">=20.18.2"
+    "node": ">=20.18.3"
   },
   "type": "module",
   "exports": {
